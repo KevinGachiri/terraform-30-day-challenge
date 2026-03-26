@@ -136,7 +136,7 @@ data "terraform_remote_state" "dev" {
 
 ## 🔗 Blog Post
 
-👉 [Read the full breakdown here](#) *(Add your blog link)*
+👉 [Read the full breakdown here](#) *https://terraform-day01.hashnode.dev/terraform-state-isolation-workspaces-vs-file-layouts-when-to-use-each*
 
 ---
 
