@@ -11,12 +11,12 @@ resource "aws_instance" "example" {
   }
 }
 
-data"terraform_remote_state" "dev" {
-  backend = "s3"
+# data"terraform_remote_state" "dev" {
+#   backend = "s3"
 
-  config = {
-    bucket = "kevin-terraform-state-2025"
-    key = "environments/dev/terraform.tfstate"
-    region = "us-east-1"
-  }
-}
+#   config = {
+#     bucket = "kevin-terraform-state-2025"
+#     key = "environments/dev/terraform.tfstate"
+#     region = "us-east-1"
+#   }
+# }
